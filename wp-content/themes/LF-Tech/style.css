@@ -1,0 +1,41 @@
+/*
+Theme Name: Modelo Saúde
+Theme URI: https://lftech.com.br/themes/modelo-saude
+Description: Modelo usado para sites de saúde
+Author: LF Tech - Luci
+Author URI: https://lftech.com.br/themes/modelo-saude
+Version: 1.2
+*/
+
+@import url(assets/css/header.css);
+@import url(assets/css/home.css);
+
+
+body{
+
+
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+
+    list-style: none;
+}
+
+.container{
+
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}

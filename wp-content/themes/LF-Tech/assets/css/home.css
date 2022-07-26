@@ -1,0 +1,61 @@
+.container .acesso-rapido{
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #4abdff;
+    border-radius: 20px;
+    height: 320px;
+    align-self: center;
+}
+
+.container .acesso-rapido .texts{
+
+    width: 100%;
+    color: white;
+    margin-left: 50px;
+}
+
+.container .acesso-rapido .texts .title{
+
+    font-weight: bold;
+}
+
+.container .acesso-rapido .texts .description {
+
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container .acesso-rapido .cards .menu{
+
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container .acesso-rapido .cards .menu li{
+    padding: 25px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    color: #142bf3;
+    max-width: 150px;
+    text-align: center;
+
+}
+
+.container .acesso-rapido .cards .menu li a{
+
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}

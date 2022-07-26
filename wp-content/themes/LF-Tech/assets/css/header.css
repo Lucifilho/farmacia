@@ -1,0 +1,30 @@
+.header{
+    margin: 0;
+    height: 500px;
+    padding: 50px;
+}
+
+.header .menu {
+
+    display: flex;
+    gap: 100px;
+    text-transform: capitalize;
+    background-color: #0d66c2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+
+
+
+
+}
+
+.header .menu li a{
+
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
